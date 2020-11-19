@@ -1,0 +1,15 @@
+.navbar-container{
+    /* background-color: blue; */
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* font-size: 1.2rem; */
+    position: sticky;
+    z-index: 999;
+}
+
+.navbar-container > a{
+    text-decoration: none;
+}

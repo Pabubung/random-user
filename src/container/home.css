@@ -1,0 +1,34 @@
+.home-container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.home-box{
+    border: 1px solid gray;
+    margin: 100px auto;
+    text-align: center;
+    width: auto;
+    /* border-radius: 8px; */
+    max-width: 80%;
+    padding: 10px;
+    height:150x;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-box-content{
+    display: flex;
+    padding: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.home-box-content > strong{
+    font-weight: 600;
+}
+
+.home-box-content > p{
+    font-weight: 400;
+}
+
